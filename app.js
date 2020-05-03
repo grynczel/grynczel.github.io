@@ -19,8 +19,6 @@ var stibApiKey = 'Bearer d22f95087a02bb41a6745f225d5f1bff';
 //   template: '<button v-on:click="count++">Vous m\'avez cliqué {{ count }} fois.</button>'
 // })
 
-import Stib from './components/stib.vue'
-
 var app = new Vue({
     el: '#app',
     vuetify: new Vuetify(),
@@ -37,3 +35,4 @@ var app = new Vue({
             .then(response => (this.info = response.data))
     }
 })
+
